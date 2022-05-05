@@ -1,26 +1,28 @@
 
-DROP TABLE IF EXISTS Countries cascade;
-DROP TABLE IF EXISTS Cost_of_Living cascade;
+DROP TABLE IF EXISTS countries cascade;
+DROP TABLE IF EXISTS cost_of_Living cascade;
 
-CREATE TABLE Countries (
-Country VARCHAR PRIMARY KEY
-Region	VARCHAR
-Population INT
-Population_Density_(/sqr-mile) FLOAT
-Infant_Mortality_(per_1000_births) FLOAT
-GDP_($_per_capita) FLOAT
-Literacy_(%) FLOAT
-Phones_(per_1000)] FLOAT
-Birthrate FLOAT
+CREATE TABLE countries (
+Country VARCHAR PRIMARY KEY NOT NULL,  
+Region VARCHAR,  
+Population INT,  
+"Pop._Density_(per_sq._mi.)" FLOAT, 
+Net_migration FLOAT,  
+"Infant_mortality_(per_1000_births)" FLOAT, 
+"GDP_($_per_capita)" FLOAT,  
+"Literacy" FLOAT,  
+"Phones_(per_1000)" FLOAT,  
+Birthrate FLOAT, 
 Deathrate FLOAT
 );
 
-CREATE TABLE Cost_of_Living (
-Country VARCHAR PRIMARY KEY NOT NULL
-Cost_of_Living Index] FLOAT
-Rent_Index	FLOAT
-Cost_of_Living_Plus_Rent Index FLOAT
-Groceries_Index FLOAT
-Restaurant_Price_Index	FLOAT
+CREATE TABLE cost_of_Living (
+Country VARCHAR PRIMARY KEY NOT NULL,
+Cost_of_Living_Index FLOAT,
+Rent_Index	FLOAT,
+Cost_of_Living_Plus_Rent_Index FLOAT,
+Groceries_Index FLOAT,
+Restaurant_Price_Index	FLOAT,
 Local_Purchasing_Power_Index FLOAT
 );
+
