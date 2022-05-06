@@ -65,17 +65,44 @@ We promptly downloaded them and began designing a relational database to house t
 ![alt text](Screen_Captures/Screen_Capture_2-Cost_of_Living.png)
 
 ## Relational Database
-Tables
-PostGres
-Primary Keys
+We chose to use Postgres as our Relational Database for loading our cleaned data into.
+We wrote a Schemata document, which established two tables in the database. The first was called countries and the second, cost_of_Living.
+We listed each of the column headers for the tables, as well as the variable type that would be housed beneath them.
+A Primary Key was assigned to each table, and in both cases it was 'Country'. The idea was that we would eventually join the two tables on 'Country' and write queries relating to the amalgimated data.
 
-## Findings
+![alt text](Screen_Captures/Screen_Capture_3-Schemata.png)
 
 ## Data Fomatting
-columns
-Cleaning
+The following process was undertaken on BOTH csv files outlined earlier.
+For the purpose of this ReadMe file, we will show you how the 'countries of the world' data was formatted and cleaned.
+
+(1) Import dependencies.
+
+(2) Import the csv data to jupiter and create a Pandas dataframe:
+
+![alt text](Screen_Captures/Screen_Capture_4-Data_Import_to_Jupyter.png)
+
+(3) Choose the columns withing the data frame to display:
+
+![alt text](Screen_Captures/Screen_Capture_5-Column_Selection.png)
+
+(4) Remove all spaces from the column headers and replace them with underscores.
+
+(This was necessary because spaces in the column header names causes errors in the Postgres schemata.)
+
+![alt text](Screen_Captures/Screen_Capture_6-Space_Removal.png)
+
+(5) Convert all country names to a format that removes 'the', any unnessessary spaces and any special characters. Also ensure that the first letter is capitalised, but all remaining letter is the name are lower-case.
+
+(This was necessary becasue we intended to join our PostGres tables based on 'Country'. A mismatch in formatting or name style would lead to errors, so uniformity was important.)
+
+![alt text](Screen_Captures/Screen_Capture_7-Country_Name_Conversion.png)
+
+(6) Convert all decimal numbers in the data which are expressed using European conventions (commas) to digits with a full-stop for the decimal point. 
+
+![alt text](Screen_Captures/Screen_Capture_8-Decimal_Points_Not_Commas.png)
 
 ## Transformations
 Joins
 
-
+## Findings
