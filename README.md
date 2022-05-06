@@ -2,7 +2,11 @@
 
 # Group Members:
 
-(1) Hiu Lai    (2) Navid Motlagh   (3) Tu Cam Dang   (4) Wei Wen Tan   (5) Chris Burley
+(1) Hiu Lai
+(2) Navid Motlagh
+(3) Tu Cam Dang   
+(4) Wei Wen Tan   
+(5) Chris Burley
 
 # Task Components
 
@@ -56,7 +60,8 @@ We were pleased to find that data sets DID exist.
 
 We promptly downloaded them and began designing a relational database to house the data.
 
-![alt text](Screen_Captures/Screen_Capture_1-Countries_of_the_World.png)
+![alt text](Screen_Captures/Screen_Capture_1-Countries_of_the_World.png)<br>
+![alt text](Screen_Capture_2-Cost_of_Living.png)
 
 # Relational Database
 Tables
