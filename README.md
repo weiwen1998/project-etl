@@ -56,6 +56,8 @@ We were pleased to find that data sets DID exist.
 
 We promptly downloaded them and began designing a relational database to house the data.
 
+![alt text](Screen_Captures/Screen_Capture_1-Countries_of_the_World.png)
+
 # Relational Database
 Tables
 PostGres
@@ -71,6 +73,3 @@ Cleaning
 Joins
 
 
-
-![alt text](Screen_Captures/Screen_Capture_1-Test.png)
-# My cool project and above is the logo of it
