@@ -3,10 +3,15 @@
 ## Group Members:
 
 (1) Hiu Lai
+
 (2) Navid Motlagh
+
 (3) Tu Cam Dang
+
 (4) Wei Wen Tan
+
 (5) Chris Burley
+
 
 ## Task Components
 
