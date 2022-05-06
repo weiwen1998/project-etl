@@ -9,7 +9,7 @@
 (5) Chris Burley   
 
 
-## Task Components
+## Task Components:
 
 The ETL project that you are currently viewing comprises the following key components:
 
@@ -50,7 +50,7 @@ In completing this ETL project, our group sought to explore the relationship bet
 
 We also sought to improve our extracting, transforming and loading skills. We committed to working collaboratively for as many of the task's technical elements as possible so that each of us could engage with ALL of the coding. Working this way also meant that we could develop our practice by observing the work of others within the team when they had more refined skills in a cetain area. We avoided, for as long as was reasonable, splitting the task into discrete components and sending individuals off with a tightly defined roles that no-one else would be involved in completing. The purpose of this project, afterall, was to learn.
 
-## Data Sources
+## Data Sources:
 
 We started by brainstoring realtionship that we wanted to explore.
 Once we had established a wishlist of sorts, we visited Kaggle.com to determine whether data sets existed for the variables in the aforementioned relationships.
@@ -64,15 +64,18 @@ We promptly downloaded them and began designing a relational database to house t
 ![alt text](Screen_Captures/Screen_Capture_1-Countries_of_the_World.png)<br>
 ![alt text](Screen_Captures/Screen_Capture_2-Cost_of_Living.png)
 
-## Relational Database
+## Relational Database:
+
 We chose to use Postgres as our Relational Database for loading our cleaned data into.
+A database named CountriesDB was created.
 We wrote a Schemata document, which established two tables in the database. The first was called countries and the second, cost_of_Living.
 We listed each of the column headers for the tables, as well as the variable type that would be housed beneath them.
 A Primary Key was assigned to each table, and in both cases it was 'Country'. The idea was that we would eventually join the two tables on 'Country' and write queries relating to the amalgimated data.
 
 ![alt text](Screen_Captures/Screen_Capture_3-Schemata.png)
 
-## Data Fomatting
+## Data Fomatting:
+
 The following process was undertaken on BOTH csv files outlined earlier.
 For the purpose of this ReadMe file, we will show you how the 'countries of the world' data was formatted and cleaned.
 
@@ -98,11 +101,36 @@ For the purpose of this ReadMe file, we will show you how the 'countries of the 
 
 ![alt text](Screen_Captures/Screen_Capture_7-Country_Name_Conversion.png)
 
-(6) Convert all decimal numbers in the data which are expressed using European conventions (commas) to digits with a full-stop for the decimal point. 
+(6) Convert decimal numbers in the data which are expressed using European conventions (commas) to digits with a full-stop for the decimal point. 
 
 ![alt text](Screen_Captures/Screen_Capture_8-Decimal_Points_Not_Commas.png)
 
-## Transformations
-Joins
+## Connection and loading to PostGres:
 
-## Findings
+A connection was then made between the Jupyter notebook and the PostGres database established earlier.
+This would allow the transfer of the cleaned table data.
+
+![alt text](Screen_Captures/Screen_Capture_9-Connection_PostGres.png)
+![alt text](Screen_Captures/Screen_Capture_10-Loading_to_PostGres.png)
+
+## Transformations:
+
+A, SQL query was then written to join the two tables in the PostGres database.
+
+![alt text](Screen_Captures/Screen_Capture_11-Join_Query.png)
+
+Further SQL queries were written isolate the pairs of variables that the group set out to explore the relationship between.
+
+![alt text](Screen_Captures/Screen_Capture_12-Search_Query.png)
+
+MatPlotLib was used to create Scatterplots for:
+
+    - A country's cost of living (including and not including rent) versus its GDP
+    - A country's birthrate versus its GDP
+    - A country's deathrate versus its GDP
+    - A country's literacy rate versus its GDP
+    - A country's infant mortality rate versus its GDP
+
+![alt text](Screen_Captures/Screen_Capture_13-MatPlotLib.png)
+
+## Findings:
