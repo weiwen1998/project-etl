@@ -18,4 +18,4 @@ Insight 2
 It can be observed, as is expected due to the exponentional(non-linear) regression between GDP and Literacy rate, that the behavior of the graph changes.At a certain point, GDP growth accelarates whereas there is minimal change in literacy rate.
 This can be due to the fact that although literacy rate is a basic effective factors in GDP growth, it is only one of many. In fact, even though literacy rate is vital to GDP, other factors start to gain significant importance at a certain point, namely good govenrnance, democratic indexes, political, economic and social freedoms, openness to trade and foreign direct investment.
 
-To conclude, this analysis suggests that, along with investment in education, governments pursue political, economic and social development, enhance democratic indexes, and absorb foreign investments to increase GDP.
+To conclude, this analysis suggests that, along with investment in education, governments pursue political, economic and social development, enhance democratic indexes, and absorb foreign investments to increase GDP. 
