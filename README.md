@@ -140,7 +140,7 @@ Below is a screen capture showing the literacy rankings.
 
 We then created a master CSV showing how each country ranked in terms of each variable.
 
-![alt text](Screen_Captures/Screen_Capture_15-Countries_Rank_Overview.png)
+![alt text](Screen_Captures/Screen_Capture_16-Countries_Rank_Overview.png)
 
 ## Findings:
 
