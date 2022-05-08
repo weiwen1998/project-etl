@@ -22,3 +22,4 @@ Some of the countries have a high death rate as a result of low GDP be the case 
 
 We can observe from the graph that the negative gradient indicates that the GDP would decrease if the birth rate would increase.
 
+This could be due to a variety of factors, since countries with a higher GDP would have more commitments to deal with, compared to those with lower GDP levels like work commitments, education and other factors like markets, financial ability and social security.
