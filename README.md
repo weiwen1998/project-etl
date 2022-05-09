@@ -21,7 +21,7 @@ This can be due to the fact that although literacy rate is a basic effective fac
 
 To conclude, this analysis suggests that, along with investment in education, governments pursue political, economic and social development, enhance democratic indexes, and absorb foreign investments to increase GDP.
 
-##Comparison of GDP vs Infant Mortality Rate
+##Comparison of Infant Mortality Rate vs GDP
 
 Based on the graph given, there is an indication of a negative gradient, which explains that for every $1 increase in the GDP, would lead to a decrease in the expected value of the Infant Mortality Rate of the country by 0.0016 deaths per 1000 births, ceteris paribus.
 
@@ -30,7 +30,7 @@ This indicates that when the country has a higher GDP, the infant mortality rate
 The graph indicates that the majority of the countries have an infant mortality rate that lies in between the range of 0 to 40 deaths per 1000 births. These depend on a variety of conditions including living standards and conditions, birth issues and many more.
 
 
-#Comparison of GDP vs Death Rate
+#Comparison of Death Rate vs GDP
 
 We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the death rate would increase.
 
@@ -39,7 +39,7 @@ We can also observe from the graph that the death rate of most of the countries 
 Some of the countries have a high death rate as a result of low GDP be the case is due to the issues that some of these countries are facing, including issues with famine, lack of safe water and water-borne diseases (diarrhoea, typhoid, hookworm and schistosomiasis), sanitation issues, showing the effect and evidence of the negative trend.
 
 
-#Comparison of GDP vs Birth Rates
+#Comparison of Birth Rate vs GDP
 
 We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the birth rate would increase.
 
