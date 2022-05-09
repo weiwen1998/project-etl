@@ -33,7 +33,7 @@ The graph indicates that the majority of the countries have an infant mortality 
 
 We can observe from the graph that the negative gradient indicates that the GDP would decrease if the death rate would increase.
 
-Majority of the countries have a death rate between 5 to 10, and this comes into effect especially with the COVID-19 pandemic impacting many countries and more people dying from the complications of this virus. 
+The death rate of most of the countries lies in between 5 to 10, and this could be due to global disease pandemics like AIDS and the COVID-19 pandemic, which affected many countries and more people have died from the complications of this virus. 
 
 Some of the countries have a high death rate as a result of low GDP be the case is due to the issues that some of these countries are facing, including issues with famine, lack of safe water and water-borne diseases (diarrhoea, typhoid, hookworm and schistosomiasis), sanitation issues, showing the effect and evidence of the negative trend.
 
