@@ -193,7 +193,7 @@ We can observe from the graph that the negative gradient indicates that the GDP 
 
 This could be due to a variety of factors, since countries with a higher GDP would have more commitments to deal with, compared to those with lower GDP levels like work commitments, education and other factors like markets, financial ability and social security.
 
-![alt text](Screen_Captures/Screen_Capture_19-Death_Rate.png)
+![alt text](Screen_Captures/Screen_Capture_19-Birth_Rate.png)
 
 ## Findings - Cost of Living vs GPD:
 
