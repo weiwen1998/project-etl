@@ -62,8 +62,8 @@ We were pleased to find that data sets DID exist.
 
 We promptly downloaded them and began designing a relational database to house the data.
 
-![alt text](Screen_Captures/Screen_Capture_1-Countries_of_the_World.png)<br>
-![alt text](Screen_Captures/Screen_Capture_2-Cost_of_Living.png)
+![alt text](images/Screen_Captures/Screen_Capture_1-Countries_of_the_World.png)<br>
+![alt text](images/Screen_Captures/Screen_Capture_2-Cost_of_Living.png)
 
 ## Relational Database:
 
@@ -73,7 +73,7 @@ We wrote a Schemata document, which established two tables in the database. The 
 We listed each of the column headers for the tables, as well as the variable type that would be housed beneath them.
 A Primary Key was assigned to each table, and in both cases it was 'Country'. The idea was that we would eventually join the two tables on 'Country' and write queries relating to the amalgamated data.
 
-![alt text](Screen_Captures/Screen_Capture_3-Schemata.png)
+![alt text](images/Screen_Captures/Screen_Capture_3-Schemata.png)
 
 ## Data Formatting:
 
@@ -84,27 +84,27 @@ For the purpose of this README file, we will show you how the 'countries of the 
 
 (2) Import the csv data to jupiter and create a Pandas dataframe:
 
-![alt text](Screen_Captures/Screen_Capture_4-Data_Import_to_Jupyter.png)
+![alt text](images/Screen_Captures/Screen_Capture_4-Data_Import_to_Jupyter.png)
 
 (3) Choose the columns within the dataframe to display:
 
-![alt text](Screen_Captures/Screen_Capture_5-Column_Selection.png)
+![alt text](images/Screen_Captures/Screen_Capture_5-Column_Selection.png)
 
 (4) Remove all spaces from the column headers and replace them with underscores. We also dropped all percentage symbols.
 
 (This was necessary because spaces and other special characters in the columns causes errors in the Postgres schemata.)
 
-![alt text](Screen_Captures/Screen_Capture_6-Space_Removal.png)
+![alt text](images/Screen_Captures/Screen_Capture_6-Space_Removal.png)
 
 (5) Convert all country names to a format that removes 'the', any unnecessary spaces and any special characters. Also ensure that the first letter is capitalised, but all remaining letters in the name are lower-case. The program also changed lesser known region names to more commonly recognised ones.
 
 (This was necessary because we intended to join our Postgres tables based on 'Country'. A mismatch in formatting or name style would lead to errors, so uniformity was important.)
 
-![alt text](Screen_Captures/Screen_Capture_7-Country_Name_Conversion.png)
+![alt text](images/Screen_Captures/Screen_Capture_7-Country_Name_Conversion.png)
 
 (6) Convert decimal numbers in the data which are expressed using European conventions (commas) to digits with a full-stop for the decimal point. 
 
-![alt text](Screen_Captures/Screen_Capture_8-Decimal_Points_Not_Commas.png)
+![alt text](images/Screen_Captures/Screen_Capture_8-Decimal_Points_Not_Commas.png)
 
 ## Connection and loading to Postgres:
 
@@ -114,18 +114,18 @@ This would allow the transfer of the cleaned table data.
 A config.py was created to store passwords.
 It was listed in a gitignore file so that it would not be uploaded to github.
 
-![alt text](Screen_Captures/Screen_Capture_9-Connection_PostGres.png)
-![alt text](Screen_Captures/Screen_Capture_10-Loading_to_PostGres.png)
+![alt text](images/Screen_Captures/Screen_Capture_9-Connection_PostGres.png)
+![alt text](images/Screen_Captures/Screen_Capture_10-Loading_to_PostGres.png)
 
 ## Transformations:
 
 An SQL query was then written to join the two tables in the Postgres database.
 
-![alt text](Screen_Captures/Screen_Capture_11-Join_Query.png)
+![alt text](images/Screen_Captures/Screen_Capture_11-Join_Query.png)
 
 Further SQL queries were written to isolate the pairs of variables that the group set out to explore the relationship between.
 
-![alt text](Screen_Captures/Screen_Capture_12-Search_Query.png)
+![alt text](images/Screen_Captures/Screen_Capture_12-Search_Query.png)
 
 MatPlotLib was used to create scatterplots for:
 
@@ -135,16 +135,16 @@ MatPlotLib was used to create scatterplots for:
     - A country's literacy rate versus its GDP
     - A country's infant mortality rate versus its GDP
 
-![alt text](Screen_Captures/Screen_Capture_13-MatPlotLib.png)
+![alt text](images/Screen_Captures/Screen_Capture_13-MatPlotLib.png)
 
 Lastly, SQL queries were written to rank each country on each of the variables listed immediately above.
 Below is a screen capture showing the literacy rankings.
 
-![alt text](Screen_Captures/Screen_Capture_15-Ranking.png)
+![alt text](images/Screen_Captures/Screen_Capture_15-Ranking.png)
 
 We then created a master CSV showing how the countries ranked in terms of each variable.
 
-![alt text](Screen_Captures/Screen_Capture_16-Countries_Rank_Overview.png)
+![alt text](images/Screen_Captures/Screen_Capture_16-Countries_Rank_Overview.png)
 
 ## Findings - Literacy versus GDP:
 
@@ -166,7 +166,7 @@ This can be due to the fact that although literacy rate is an influential factor
 
 To conclude, this analysis suggests that, along with investment in education, governments pursue political, economic and social development, enhance democratic indexes, and absorb foreign investments to increase GDP.
 
-![alt text](Screen_Captures/Screen_Capture_14-Literacy.png)
+![alt text](images/Screen_Captures/Screen_Capture_14-Literacy.png)
 
 
 ## Findings - Infant Mortality Rate (Deaths per 1000 infants per year) vs GDP:
@@ -175,7 +175,7 @@ Based on the graph below, there is an indication of a negative gradient, which e
 This indicates that when the country has a higher GDP, the infant mortality rate is considerably lower and vice versa.
 The graph indicates that the majority of the countries have an infant mortality rate that lies in between the range of 0 to 40 deaths per 1000 births. These depend on a variety of conditions including living standards and conditions, birth issues and many more.
 
-![alt text](Screen_Captures/Screen_Capture_17-Infant_Mortality.png)
+![alt text](images/Screen_Captures/Screen_Capture_17-Infant_Mortality.png)
 
 ## Findings - Death Rate (Deaths per 1000 people per year) vs GDP:
 
@@ -183,14 +183,14 @@ We can observe from the graph that there is a negative gradient, which indicates
 We can also observe from the graph that the death rate of most of the countries involved lie between 5-10 percent. This could be due to global disease pandemics like AIDS and COVID-19, which affected many countries.
 Some of the countries have a high death rate as a result of low GDP. This could be the case because of the issues that some of these countries are facing, including famine, lack of safe drinking water and water-borne diseases (diarrhoea, typhoid, hookworm and schistosomiasis), sanitation issues, showing the effect and evidence of the negative trend.
 
-![alt text](Screen_Captures/Screen_Capture_18-Death_Rate.png)
+![alt text](images/Screen_Captures/Screen_Capture_18-Death_Rate.png)
 
 ## Findings - Birth Rate (Births per 1000 people per Year) vs GDP:
 
 We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the birth rate were to increase.
 High GDP countries would have more commitments to deal with, compared to those with lower GDP levels, like work and educational commitments and other factors like markets, financial concerns and social security.
 
-![alt text](Screen_Captures/Screen_Capture_19-Birth_Rate.png)
+![alt text](images/Screen_Captures/Screen_Capture_19-Birth_Rate.png)
 
 ## Findings - Cost of Living vs GDP:
 
@@ -199,6 +199,6 @@ In contrast, the standard of living refers to the level of money and well-being,
 We found that there is a moderate correlation between Global GDP and with cost of living index in many countries. The high level of GDP relates to the high level of living cost index.
 The level of GDP measures economic growth, this might relate to inflation. Inflation increases the cost of living i.e. the employees' wages rise. Generally, the high level of GDP indicates the a growing economy and impacts on the standard of living as well as other factors.
 
-![alt text](Screen_Captures/Screen_Capture_20-Cost_of_Living.png)
+![alt text](images/Screen_Captures/Screen_Capture_20-Cost_of_Living.png)
 
 
