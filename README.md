@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 # ETL Project
 
 ## Group Members:
@@ -168,7 +172,11 @@ To conclude, this analysis suggests that, along with investment in education, go
 ![alt text](Screen_Captures/Screen_Capture_14-Literacy.png)
 
 
+<<<<<<< HEAD
 ## Findings - Infant Mortality Rate vs GDP:
+=======
+## Findings - Infant Mortality Rate (Deaths per 1000 infants per year) vs GDP:
+>>>>>>> main
 
 Based on the graph below, there is an indication of a negative gradient, which explains that for every $1 increase in the GDP, it would lead to a decrease in the expected value of the Infant Mortality Rate of the country by 0.0016 deaths per 1000 births, ceteris paribus.
 This indicates that when the country has a higher GDP, the infant mortality rate is considerably lower and vice versa.
@@ -176,7 +184,11 @@ The graph indicates that the majority of the countries have an infant mortality 
 
 ![alt text](Screen_Captures/Screen_Capture_17-Infant_Mortality.png)
 
+<<<<<<< HEAD
 ## Findings - Death Rate vs GDP:
+=======
+## Findings - Death Rate (Deaths per 1000 people per year) vs GDP:
+>>>>>>> main
 
 We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the death rate were to increase.
 We can also observe from the graph that the death rate of most of the countries involved lie between 5-10 percent. This could be due to global disease pandemics like AIDS and COVID-19, which affected many countries.
@@ -184,7 +196,11 @@ Some of the countries have a high death rate as a result of low GDP. This could 
 
 ![alt text](Screen_Captures/Screen_Capture_18-Death_Rate.png)
 
+<<<<<<< HEAD
 ## Findings - Birth Rate vs GDP:
+=======
+## Findings - Birth Rate (Births per 1000 people per Year) vs GDP:
+>>>>>>> main
 
 We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the birth rate were to increase.
 High GDP countries would have more commitments to deal with, compared to those with lower GDP levels, like work and educational commitments and other factors like markets, financial concerns and social security.
@@ -200,3 +216,7 @@ The level of GDP measures economic growth, this might relate to inflation. Infla
 
 ![alt text](Screen_Captures/Screen_Capture_20-Cost_of_Living.png)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
