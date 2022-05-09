@@ -31,15 +31,15 @@ The graph indicates that the majority of the countries have an infant mortality 
 
 #Comparison of GDP vs Death Rate
 
-We can observe from the graph that the negative gradient indicates that the GDP would decrease if the death rate would increase.
+We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the death rate would increase.
 
-The death rate of most of the countries lies in between 5 to 10, and this could be due to global disease pandemics like AIDS and the COVID-19 pandemic, which affected many countries and more people have died from the complications of this virus. 
+We can also observe from the graph that the death rate of most of the countries involved lie in between 5-10 percent. This could be due to global disease pandemics like AIDS and COVID-19, which affected many countries.
 
 Some of the countries have a high death rate as a result of low GDP be the case is due to the issues that some of these countries are facing, including issues with famine, lack of safe water and water-borne diseases (diarrhoea, typhoid, hookworm and schistosomiasis), sanitation issues, showing the effect and evidence of the negative trend.
 
 
 #Comparison of GDP vs Birth Rates
 
-We can observe from the graph that the negative gradient indicates that the GDP would decrease if the birth rate would increase.
+We can observe from the graph that there is a negative gradient, which indicates that the GDP would decrease if the birth rate would increase.
 
-This could be due to a variety of factors, since countries with a higher GDP would have more commitments to deal with, compared to those with lower GDP levels like work and educational and other factors like markets, financial ability and social security.
+Since high GDP countries would have more commitments to deal with, compared to those with lower GDP levels like work and educational commitments and other factors like markets, financial ability and social security.
