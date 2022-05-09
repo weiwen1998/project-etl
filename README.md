@@ -201,4 +201,4 @@ The level of GDP measures economic growth, this might relate to inflation. Infla
 
 ![alt text](Screen_Captures/Screen_Capture_20-Cost_of_Living.png)
 
->>>>>>> branch-c
+
